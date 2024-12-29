@@ -1,0 +1,40 @@
+.home-card {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.product-card {
+  margin-bottom: 20px;
+  padding: 14px 20px;
+  text-align: center;
+  border: 1px solid green;
+}
+
+.img-container {
+  border: 1px solid yellow;
+  width: 250px;
+}
+
+.img-container img {
+  width: 220px;
+}
+
+.productInfo-container {
+  border: 1px solid blue;
+}
+
+.productInfo-container h1 {
+  font-size: 18px;
+  color: #000000;
+}
+
+.productInfo-container p {
+  font-size: 14px;
+  font-style: italic;
+  color: #585858;
+}
+
+.btn-container {
+  width: 250px;
+  border: 1px solid purple;
+}

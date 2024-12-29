@@ -22,7 +22,7 @@ const Home = () => {
               <MainImage />
             </div>
           </div>
-          <div className="home-content-container-2">
+          <div className="base-card home-content-container-2">
             <ButtonIcon />
             <p>Comece agora a navegar</p>
           </div>

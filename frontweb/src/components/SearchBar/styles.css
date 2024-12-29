@@ -1,0 +1,9 @@
+.search-card {
+    border: 1px solid red;
+    margin: 20px 0px;
+    padding: 20px 10px;
+  }
+
+  .search-card form {
+    width: 200px;
+  }

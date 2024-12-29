@@ -43,10 +43,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ededed;
   padding: 10px;
   margin: 20px 0px 100px 0px;
-  border-radius: 10px;
 }
 
 .home-content-container-2 p {
