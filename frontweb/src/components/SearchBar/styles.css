@@ -1,9 +1,92 @@
 .search-card {
-    border: 1px solid red;
-    margin: 20px 0px;
-    padding: 20px 10px;
+  margin-bottom: 20px;
+  padding: 10px 22px 14px 24px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 199px;
+}
+
+form input {
+  width: 100%;
+  border-radius: 5px 0 0 5px;
+  height: 40px;
+  font-size: 14px;
+  text-align: start;
+  padding: 13px 11px;
+  border: none;
+}
+
+.searchbtn-icon {
+  width: 77px;
+  height: 40px;
+  border-radius: 0 5px 5px 0;
+}
+
+.searchbtn-icon p {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 576px) {
+  .search-card {
+    padding: 42px 22px 41px 20px;
   }
 
-  .search-card form {
-    width: 200px;
+  form {
+    width: 320px;
   }
+
+  form input {
+    padding: 11px 121px 13px 13px;
+  }
+
+  .searchbtn-icon {
+    width: 174px;
+  }
+}
+
+@media (min-width: 768px) {
+  .search-card {
+    padding: 42px 18px 41px 20px;
+  }
+  form {
+    width: 516px;
+  }
+
+  form input {
+    padding: 11px 317px 13px 13px;
+  }
+}
+
+@media (min-width: 992px) {
+  .search-card {
+    width: auto;
+    height: 123px;
+    padding: 42px 97px 41px 97px;
+  }
+
+  form {
+    width: 584px;
+  }
+
+  form input {
+    padding: 11px 221px 13px 24px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .search-card {
+    padding: 42px 123px 41px 98px;
+  }
+}

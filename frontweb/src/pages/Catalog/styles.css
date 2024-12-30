@@ -2,3 +2,18 @@ body {
     background-color: white;
 }
 
+.home-card {
+    padding: 20px 10px;
+}
+
+@media (min-width: 576px) {
+    .home-card {
+        padding: 30px 20px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .home-card {
+        padding: 30px 150px;
+    }
+}

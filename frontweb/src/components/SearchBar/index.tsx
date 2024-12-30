@@ -1,11 +1,16 @@
-import './styles.css'
+import './styles.css';
 
 const SearchBar = () => {
   return (
     <div className="base-card search-card">
-      <form action="">
-        <input placeholder="Digite sua busca" />
+      <div className="search-form">
+      <form action="" >
+        <input type="text" placeholder="Digite sua busca" />
       </form>
+    </div>
+      <button className="btn btn-content searchbtn-icon">
+        <p>BUSCAR</p>
+      </button>
     </div>
   );
 };
