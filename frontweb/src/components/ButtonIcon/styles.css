@@ -4,12 +4,17 @@
     height: 40px;
     font-size: 14px;
     margin: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.btn-icon p {
+.btn-icon h6 {
     color: #FFFFFF;
     font-size: 1em;
     font-weight: 700;
-    align-items: center;
-    justify-content: center;
+    justify-content:center;
+    text-align:center;
+    align-items:center;
+
 }

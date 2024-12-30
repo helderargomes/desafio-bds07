@@ -18,4 +18,11 @@
     font-weight: bold;
 }
 
+.navbar-toggler {
+    border: none;
+    color: rgba(0, 40, 95, 10);
+    border-radius: 5px;
+    
+}
+
 

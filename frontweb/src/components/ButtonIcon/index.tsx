@@ -4,7 +4,7 @@ const ButtonIcon = () => {
 
     return (
         <button className="btn btn-content btn-icon">
-            <p>VER CATÁLOGO</p>
+            <h6>VER CATÁLOGO</h6>
         </button>
     )
 }
